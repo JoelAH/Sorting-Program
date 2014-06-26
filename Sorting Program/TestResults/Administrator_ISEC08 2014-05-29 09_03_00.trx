@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3928797c-5d46-4a7d-9dc2-936597b3f603" name="Administrator@ISEC08 2014-05-29 09:03:00" runUser="ISEC08\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e1853de3-f115-46b6-a1a5-8c99ab8e039a">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\Administrator\Documents\Sorting Program\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Administrator_ISEC08 2014-05-29 09_03_00">
+      <DeploymentItem filename="C:\Users\Administrator\Documents\Sorting Program\Sorting Program\bin\Debug\Sorting Program.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-05-29T09:03:00.2945816-05:00" queuing="2014-05-29T09:03:00.3285835-05:00" start="2014-05-29T09:03:00.3335838-05:00" finish="2014-05-29T09:03:00.5245947-05:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="ISEC08" outcome="Warning" timestamp="2014-05-29T09:03:00.3285835-05:00">
+        <Text>Deployment is currently disabled. The deployment item 'Sorting Program.exe' on test 'MainTestProject.MainTestFile2.shellSortTest1' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="shellSortTest1" storage="c:\users\administrator\documents\sorting program\maintestproject\bin\debug\maintestproject.dll" id="967d92b9-3e8b-941d-13f5-a706bd3544a4">
+      <DeploymentItems>
+        <DeploymentItem filename="Sorting Program.exe" />
+      </DeploymentItems>
+      <Execution id="8b29f190-cbcc-4573-bdff-3ade07662f63" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/Sorting Program/MainTestProject/bin/Debug/MainTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MainTestProject.MainTestFile2, MainTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="shellSortTest1" />
+    </UnitTest>
+    <UnitTest name="insertionSortTest1" storage="c:\users\administrator\documents\sorting program\maintestproject\bin\debug\maintestproject.dll" id="4a624652-968e-c04f-4eb4-48c87e0d958c">
+      <DeploymentItems>
+        <DeploymentItem filename="Sorting Program.exe" />
+      </DeploymentItems>
+      <Execution id="d731ce58-f1cc-46f6-8063-d07e240bca28" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/Sorting Program/MainTestProject/bin/Debug/MainTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MainTestProject.MainTestFile, MainTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="insertionSortTest1" />
+    </UnitTest>
+    <UnitTest name="insertionSortTest3" storage="c:\users\administrator\documents\sorting program\maintestproject\bin\debug\maintestproject.dll" id="0332e5f3-315c-8271-5e11-5e70bcadc891">
+      <DeploymentItems>
+        <DeploymentItem filename="Sorting Program.exe" />
+      </DeploymentItems>
+      <Execution id="6d38f97f-86a4-4d45-a537-6ee585b6f67f" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/Sorting Program/MainTestProject/bin/Debug/MainTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MainTestProject.MainTestFile, MainTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="insertionSortTest3" />
+    </UnitTest>
+    <UnitTest name="insertionSortTest2" storage="c:\users\administrator\documents\sorting program\maintestproject\bin\debug\maintestproject.dll" id="96d07003-1426-0073-968d-16c58a3479a7">
+      <DeploymentItems>
+        <DeploymentItem filename="Sorting Program.exe" />
+      </DeploymentItems>
+      <Execution id="5913d8b8-631a-44dc-923b-71caa1cff6b8" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/Sorting Program/MainTestProject/bin/Debug/MainTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MainTestProject.MainTestFile, MainTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="insertionSortTest2" />
+    </UnitTest>
+    <UnitTest name="shellSortTest2" storage="c:\users\administrator\documents\sorting program\maintestproject\bin\debug\maintestproject.dll" id="94e32281-a7ae-72f1-cc69-5c754b4c93d1">
+      <DeploymentItems>
+        <DeploymentItem filename="Sorting Program.exe" />
+      </DeploymentItems>
+      <Execution id="84265a9b-5e4e-49e8-baef-0bb1e944692a" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/Sorting Program/MainTestProject/bin/Debug/MainTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MainTestProject.MainTestFile2, MainTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="shellSortTest2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0332e5f3-315c-8271-5e11-5e70bcadc891" executionId="6d38f97f-86a4-4d45-a537-6ee585b6f67f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4a624652-968e-c04f-4eb4-48c87e0d958c" executionId="d731ce58-f1cc-46f6-8063-d07e240bca28" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="94e32281-a7ae-72f1-cc69-5c754b4c93d1" executionId="84265a9b-5e4e-49e8-baef-0bb1e944692a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="967d92b9-3e8b-941d-13f5-a706bd3544a4" executionId="8b29f190-cbcc-4573-bdff-3ade07662f63" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="96d07003-1426-0073-968d-16c58a3479a7" executionId="5913d8b8-631a-44dc-923b-71caa1cff6b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="6d38f97f-86a4-4d45-a537-6ee585b6f67f" testId="0332e5f3-315c-8271-5e11-5e70bcadc891" testName="insertionSortTest3" computerName="ISEC08" duration="00:00:00.0195315" startTime="2014-05-29T09:03:00.3345839-05:00" endTime="2014-05-29T09:03:00.4935930-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d38f97f-86a4-4d45-a537-6ee585b6f67f">
+    </UnitTestResult>
+    <UnitTestResult executionId="d731ce58-f1cc-46f6-8063-d07e240bca28" testId="4a624652-968e-c04f-4eb4-48c87e0d958c" testName="insertionSortTest1" computerName="ISEC08" duration="00:00:00.0015008" startTime="2014-05-29T09:03:00.4955931-05:00" endTime="2014-05-29T09:03:00.4995933-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d731ce58-f1cc-46f6-8063-d07e240bca28">
+    </UnitTestResult>
+    <UnitTestResult executionId="84265a9b-5e4e-49e8-baef-0bb1e944692a" testId="94e32281-a7ae-72f1-cc69-5c754b4c93d1" testName="shellSortTest2" computerName="ISEC08" duration="00:00:00.0022440" startTime="2014-05-29T09:03:00.5005934-05:00" endTime="2014-05-29T09:03:00.5045936-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="84265a9b-5e4e-49e8-baef-0bb1e944692a">
+    </UnitTestResult>
+    <UnitTestResult executionId="8b29f190-cbcc-4573-bdff-3ade07662f63" testId="967d92b9-3e8b-941d-13f5-a706bd3544a4" testName="shellSortTest1" computerName="ISEC08" duration="00:00:00.0014799" startTime="2014-05-29T09:03:00.5055936-05:00" endTime="2014-05-29T09:03:00.5095939-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b29f190-cbcc-4573-bdff-3ade07662f63">
+    </UnitTestResult>
+    <UnitTestResult executionId="5913d8b8-631a-44dc-923b-71caa1cff6b8" testId="96d07003-1426-0073-968d-16c58a3479a7" testName="insertionSortTest2" computerName="ISEC08" duration="00:00:00.0015012" startTime="2014-05-29T09:03:00.5105939-05:00" endTime="2014-05-29T09:03:00.5145942-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5913d8b8-631a-44dc-923b-71caa1cff6b8">
+    </UnitTestResult>
+  </Results>
+</TestRun>

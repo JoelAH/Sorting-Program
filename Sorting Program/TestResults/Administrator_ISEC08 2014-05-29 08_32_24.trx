@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="82e00739-5eda-4e1e-ac9d-1b87752ea9c3" name="Administrator@ISEC08 2014-05-29 08:32:24" runUser="ISEC08\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e1853de3-f115-46b6-a1a5-8c99ab8e039a">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_ISEC08 2014-05-29 08_32_24">
+      <DeploymentItem filename="C:\Users\Administrator\Documents\Sorting Program\Sorting Program\bin\Debug\Sorting Program.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-05-29T08:32:24.4413935-05:00" queuing="2014-05-29T08:32:25.2481982-05:00" start="2014-05-29T08:32:25.2949982-05:00" finish="2014-05-29T08:32:25.6069988-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="ISEC08" outcome="Warning" timestamp="2014-05-29T08:32:24.6241971-05:00">
+        <Text>Deployment is currently disabled. The deployment item 'Sorting Program.exe' on test 'MainTestProject.MainTestFile.insertionSortTest1' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="insertionSortTest1" storage="c:\users\administrator\documents\sorting program\maintestproject\bin\debug\maintestproject.dll" id="4a624652-968e-c04f-4eb4-48c87e0d958c">
+      <DeploymentItems>
+        <DeploymentItem filename="Sorting Program.exe" />
+      </DeploymentItems>
+      <Execution id="604238b2-a850-4dc9-9218-d541ad6f17fe" />
+      <TestMethod codeBase="C:/Users/Administrator/Documents/Sorting Program/MainTestProject/bin/Debug/MainTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MainTestProject.MainTestFile, MainTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="insertionSortTest1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4a624652-968e-c04f-4eb4-48c87e0d958c" executionId="604238b2-a850-4dc9-9218-d541ad6f17fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="604238b2-a850-4dc9-9218-d541ad6f17fe" testId="4a624652-968e-c04f-4eb4-48c87e0d958c" testName="insertionSortTest1" computerName="ISEC08" duration="00:00:00.0572601" startTime="2014-05-29T08:32:25.3105983-05:00" endTime="2014-05-29T08:32:25.5601987-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="604238b2-a850-4dc9-9218-d541ad6f17fe">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2&gt;. Actual:&lt;78&gt;. </Message>
+          <StackTrace>   at MainTestProject.MainTestFile.insertionSortTest1() in C:\Users\Administrator\Documents\Sorting Program\MainTestProject\MainTestFile.cs:line 87
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

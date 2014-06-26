@@ -1,0 +1,5 @@
+C:\Users\Administrator\Documents\Sorting Program\InsertionSortTestAll\bin\Debug\InsertionSortTestAll.dll
+C:\Users\Administrator\Documents\Sorting Program\InsertionSortTestAll\bin\Debug\InsertionSortTestAll.pdb
+C:\Users\Administrator\Documents\Sorting Program\InsertionSortTestAll\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Sorting Program\InsertionSortTestAll\obj\Debug\InsertionSortTestAll.dll
+C:\Users\Administrator\Documents\Sorting Program\InsertionSortTestAll\obj\Debug\InsertionSortTestAll.pdb
